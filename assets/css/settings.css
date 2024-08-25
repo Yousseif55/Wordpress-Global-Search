@@ -1,0 +1,35 @@
+.codecruze-settings-main-title{
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+
+.codecruze-settings-table{
+	padding-top: 10px;
+}
+
+.codecruze-settings-input-text{
+	width: 25%;
+}
+
+.codecruze-settings-checkbox{
+	display: block;
+}
+
+.codecruze-settings-table th, .codecruze-settings-table td{
+	padding: 0;
+	font-weight: unset;
+}
+
+#wp-admin-bar-codecruze-search .ui.search>.results .result .description{
+	font-size: 10px !important;
+	margin-top: -7px;
+}
+
+#wp-admin-bar-codecruze-search a.result{
+	height: auto !important;
+}
+
+#wp-admin-bar-codecruze-search .ui.category.search .results{
+	width: 35em !important;
+}
