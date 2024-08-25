@@ -56,18 +56,6 @@ class codecruze
 
     }
 
-    private function add_action()
-    {
-        add_action('admin_notices', array($this, 'admin_notices'));
-        add_action('admin_menu', array($this, 'codecruze_search_menu'));
-        add_action('admin_enqueue_scripts', array($this, 'codecruze_enqueue'));
-        add_action('wp_before_admin_bar_render', array($this, 'codecruze_add_toolbar_items'), 999999999);
-        add_action('admin_footer', array($this, 'send_source_to_admin'), 999999999);
-        add_action('admin_init', array($this, 'setting_page_redirect_on_activation'));
-        add_action('admin_bar_menu', array($this, 'codecruze_add_toolbar_items'), 999999999);
-
-    }
-
     public function codecruze_search_menu()
     {
         add_menu_page('Global Search Setting', 'Global Search', 'manage_options', 'codecruze_search_menu', array($this, 'codecruze_search_menu_page'), 'dashicons-search');
