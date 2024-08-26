@@ -12,11 +12,6 @@
 - **Admin Notices**: Provides notices to inform users about the search functionalities and updates.
 - **Quick Search Toggle**: Option to enable or disable quick search directly from the toolbar.
 
-## Installation
-
-1. **Upload** the `global-search` plugin folder to your WordPress plugins directory (`/wp-content/plugins/`).
-2. **Activate** the plugin through the 'Plugins' menu in WordPress.
-
 ## Usage
 
 ### Accessing the Search Feature
